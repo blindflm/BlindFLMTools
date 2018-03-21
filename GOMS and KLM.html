@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>GOMS and KLM</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.10.0/mode/css/css.min.js'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.10.0/codemirror.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/editor.css">
+
+  
+</head>
+
+<body>
+    
+    <!-- overlay div -->
+    
+
+<!--- ---->
+    
+  <div class="container">
+      <header class="clearfix">
+				<span>Preface</span>
+				<h1>GOMS and KLM</h1>
+			</header>	
+
+      <div class="row">
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div id="intro"></div>
+    <p>Cogntive modeling is used to simulate human mental behaviour when solving complex tasks and predicting future perfromance as they interact with computer systems. The Human Processor model is a well-established cognitive modeling technique that is used to model the required time for a person to cognitively process and perform a task. GOMS is a Human Processor model that aids designer in predicting a priori the performance of expert users as they complete specific tasks within specific interface designs.  </p>
+    <p>In "The Psychology of Human Computer Interaction",  GOMS  is defined as "a set of Goals, a set of Operators, a set of Methods for achieving the goals, and a set of Selections rules for choosing among competing methods for goals". Goals are the user’s goals from using the software, i.e. what does the user want by using the software. The operators are elementary motor or cognitive acts whose executions are necessary change the system state. Usually they are the primitive actions that the software allows the user to perform or the mental actions that transfer the user from state to another in the system. Operators can be defined in different levels of abstraction; GOMS model defines them at low hardware level such as key press. Methods are the well-defined sequence of operators and sub-goals that are carried out to accomplish a goal. Selection rules are applied whenever there are two methods to accomplish the same goal, and the selection between them depends on the user’s preferences or situations.</p>
+    <p>GOMS is a family of models on which several variants exist. This includes the original GOMS model, CMN-GOMS, proposed by Card, Moran, and Newel, the Keystroke-level mode (KLM), Natural GOMS Language (NGOMSL), and Cognitive-Perceptual-Motor GOMS (CPM-GOMS). Each of these model provides a series of quantitative and/or qualitative information relating to a goal directed task, serial or parallel tasks in passive or active system and assuming that the task is accomplished by an expert user without error.</p>
+    <p>KLM is the simplest formulation of GOMS model; it is used to calculate the execution time of a specific task. The original KLM has six operators: K to press a key, H to home hands on other connected devices, D to draw a line on a grid, M to represent the mental time to do actions, and R to refer to the system response time. The execution time for each operator is estimated based on laboratory studies. To calculate tasks execution time, the analyst uses a sequence of KLM operators to represent each individual task. Then (s)he sums the execution time for all the used operators in the sequence. Execution time is the only quantitative information that KLM can provide. The inlcusion of the M operator is governed by a set of heuristic rules. </p>
+    <p>Since the conception of KLM, several extensions have been proposed to address new interfaces and interaction paradigms. For every new paradigm, original operators are adapted and new operators are introduced. This will often entail and adaption of the heauristic rules as well. Extension of KLM exist for mobile phones with key pads, smartphone with touchscreens, tablet, and in-vehicle information systems. More recently modification to KLM have addressed natural user interfaces and projectored interfaces. The majority of these extensions assume users who are not visually impaired. For that purpose the Blind Fingerstroke-Level Model (FLM) was introduced which included the development of Blind FLM tools to assist designers and developers when developing application for smartphone users who are visually impaired. </p>
+    
+    <h4>Refrences</h4>
+    <ul>
+        <li>Newell, A., 1983. The psychology of human-computer interaction.</li>
+        <li>Card, S.K., Moran, T.P. and Newell, A., 1980. The keystroke-level model for user performance time with interactive systems. Communications of the ACM, 23(7), pp.396-410.</li>
+        <li>Al-Megren, S., Altamimi, W. and Al-Khalifa, H.S., 2017, September. Blind FLM: An Enhanced Keystroke-Level Model for Visually Impaired Smartphone Interaction. In IFIP Conference on Human-Computer Interaction (pp. 155-172). Springer, Cham.</li>
+    </ul>
+</div>
+
+</div>
+      
+<div class="row">
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+    
+</div>
+
+</div>
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.10.0/codemirror.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.10.0/mode/xml/xml.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.10.0/mode/htmlmixed/htmlmixed.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.10.0/mode/css/css.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.0/holder.js'></script>
+
+    <script  src="js/calculator.js"></script>
+
+</body>
+</html>
